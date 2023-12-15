@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .heading {
+    @apply leading-[28px] font-[600] mb-1 tracking-tight;
+  }
+
+  .card {
+    @apply bg-white shadow-md p-3 rounded-lg;
+  }
+
+  .box {
+    box-shadow: #dcdcdc 0px 0px 0px 3px, #ffffff 0px 0px 0px 12px,
+      #78c268 0px 0px 0px 15px;
+  }
+}
