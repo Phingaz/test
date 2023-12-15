@@ -14,7 +14,7 @@ export default function Home() {
       <div className="w-full rounded-lg flex lg:h-[calc(100svh-80px)]">
         <SideBar />
         <div className="lg:flex-[9] w-full lg:w-auto bg-gray-100 flex flex-col lg:grid grid-flow-row grid-rows-2 gap-5 p-5 ">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:flex lg:flex-row w-full justify-center items-center gap-5">
+          <div className="grid grid-flow-row grid-rows-2 md:grid-rows-1 md:grid-flow-row md:grid-cols-2 lg:flex lg:flex-row w-full lg:justify-center items-center gap-5">
             <QuickEnergy />
             <ConsumptionReport data={ConsumptionData} />
           </div>

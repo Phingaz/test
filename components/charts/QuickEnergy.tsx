@@ -2,7 +2,7 @@ import { ArrowDown, ArrowUp, X } from "lucide-react";
 
 export default function QuickEnergy() {
   return (
-    <div className="w-full h-full aspect-square flex flex-col justify-center items-center relative card py-">
+    <div className="w-full h-full aspect-square flex flex-col items-center relative card">
       <span className="w-full flex justify-end mb-2">
         <X size={20} className="text-gray-400 cursor-pointer" />
       </span>

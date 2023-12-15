@@ -11,7 +11,7 @@ import {
 
 export default function ConsumptionReport({ data }: { data: {}[] }) {
   return (
-    <div className="h-full w-full flex flex-col justify-center items-center relative card py-">
+    <div className="h-full w-full flex flex-col justify-center items-center relative card">
       <span className="w-full flex justify-end mb-2">
         <X size={20} className="text-gray-400 cursor-pointer" />
       </span>

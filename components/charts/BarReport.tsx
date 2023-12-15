@@ -22,10 +22,10 @@ export default function BarReport({ data }: { data: {}[] }) {
       <span className="w-full flex justify-end mb-2">
         <X size={20} className="text-gray-400 cursor-pointer" />
       </span>
-      <div className="flex justify-start items-center w-full mb-5">
+      <div className="flex justify-start items-center w-full ">
         <p className="heading">Real-Time Monitoring</p>
       </div>
-      <div className="flex justify-between items-center w-full mb-4">
+      <div className="flex justify-between items-center w-full mb-5">
         <p className="text-xs text-gray-400">29 January 2022, 08:00 PM</p>
       </div>
       <ResponsiveContainer width="100%" height="100%">
